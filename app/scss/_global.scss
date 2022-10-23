@@ -8,6 +8,9 @@ body {
 	line-height: 27px;
 	font-weight: 400;
 	font-family: 'Open Sans', sans-serif;
+	color: $default;
+	overflow-x: hidden;
+	min-width: 320px;
 }
 
 .wrapper {
@@ -16,7 +19,7 @@ body {
 	min-height: 100%;
 }
 
-.main {
+.content {
 	flex: 1 0 auto;
 }
 .footer {
