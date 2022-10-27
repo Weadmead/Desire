@@ -1,5 +1,13 @@
 $(function () {
 
+    $('.hero__slider').slick({
+        dots: true,
+        arrows: false,
+        fade: true,
+        autoplay: true,
+    });
+
+
     $('.header__btn').on('click', function () {
         $('.rightside-menu').removeClass('rightside-menu--close');
     });    
