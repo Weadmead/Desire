@@ -1,5 +1,11 @@
 $(function () {
 
+    var mixer = mixitup('.gallery__inner', {
+        load : {
+            filter: '.living'
+        }
+    });
+
     $('.hero__slider').slick({
         dots: true,
         arrows: false,
