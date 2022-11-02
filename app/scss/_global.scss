@@ -62,4 +62,23 @@ body {
 }
 
 
+.info-link {
+	font-size: 14px;
+	font-weight: 600;
+	padding-left: 30px;
+	margin-bottom: 22px;
+	color: $title;
+	display: inline-block;
+	position: relative;
+
+	&::before {
+		content: "";
+		position: absolute;
+		background-image: url(../images/email.svg);
+		left: 0;
+		top: 8px;
+		width: 16px;
+		height: 12px;
+	}
+}
 
