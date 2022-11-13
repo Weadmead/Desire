@@ -1,5 +1,10 @@
 $(function () {
 
+    $('.blog__article-slider__box').slick({        
+        prevArrow: '<button type="button" class="article-slider__arrow article-slider__arrowleft"><img src="images/arrow-slide-left.svg" alt="arrow-left"></button>',
+        nextArrow: '<button type="button" class="article-slider__arrow article-slider__arrowright"><img src="images/arrow-slide-right.svg" alt="arrow-right"></button>' ,     
+    }); 
+
     $('.contact__slider-inner').slick({
         dots: true,
         arrows: false,
@@ -25,11 +30,8 @@ $(function () {
         arrows: false,
         fade: true,
         autoplay: true,
-    });
+    }); 
+
 
     
-
-
-
-
 });
